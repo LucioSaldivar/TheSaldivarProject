@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
+
+li a:hover {
+    color: gray;
+}
+
+@font-face {
+    font-family: 'Adamina';
+    src: local('Adamina'), url(./fonts/Adamina-Regular.ttf) format('truetype');
+}
+
+body {
+    font-family: Adamina, serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

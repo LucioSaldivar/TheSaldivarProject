@@ -1,0 +1,37 @@
+.Logo-Container {
+    display: flex;
+    flex-direction: row;
+    margin-left: 1em;
+}
+
+.Logo-Container h1 {
+    font-size: 3em;
+}
+
+.Logo img {
+    height: 137px;
+    width: 96px;
+    margin-left: .4em;
+}
+
+.Logo-Title-After {
+    display: flex;
+    flex-direction: row;
+    margin-top: 3.7em;
+    margin-left: .15em;
+}
+
+.Logo-Finish {
+    margin-top: 1.062em;
+    margin-left: .5em;
+}
+
+@media (max-width: 767.98px) {
+    .Logo-Title-Before {
+        display: none;
+    }
+
+    .Logo-Title-After {
+        display: none;
+    }
+}

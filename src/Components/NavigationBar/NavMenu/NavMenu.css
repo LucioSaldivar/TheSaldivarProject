@@ -1,0 +1,47 @@
+.Toggler {
+    display: none;
+}
+
+.Nav-Menu {
+    display: flex;
+}
+
+.Link-List {
+    padding: .1em 1em;
+}
+
+.active {
+    color: darkgray;
+}
+
+@media (max-width: 991.98px) {
+    .Toggler {
+        display: block;
+        padding: .6em;
+        font-size: 1.8em;
+        text-align: right;
+    }
+
+    .Nav-Menu {
+        position: relative;
+        background-color: black;
+        flex-direction: column;
+        text-align: center;
+        transition: all ease-in 1s;
+        transform: translateX(100%);
+        visibility: hidden;
+        top: -.566em;
+        height: 30em;
+        width: 15em;
+    }
+
+    .Open {
+        transform: translateX(0%);
+        transition: all ease-out 1s;
+        visibility: visible;
+    }
+
+    .Link-List {
+        padding: 1em .1em;
+    }
+}

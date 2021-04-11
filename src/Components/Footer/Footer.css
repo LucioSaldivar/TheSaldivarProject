@@ -1,0 +1,19 @@
+.Footer {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.SocialLinks {
+    margin-top: .2%;
+    font-size: 1.6em;
+}
+
+.SocialLinks a {
+    padding: 0 2em;
+}
+
+.SocialLinks a:hover {
+    color: rgb(105, 105, 105);
+}
